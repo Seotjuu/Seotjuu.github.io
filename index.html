@@ -9,32 +9,58 @@
 </head>
 <body>
     <div class="Header">
-        <h1>Seotju's HomePage</h1>
+        <div class="Header-left">
+            <h1>Seotju's HomePage</h1>
+        </div>
+
+        <div class="Header-right">
+            <ul id="menubar">
+                <li id="menu1"> 회원가입</li>
+                <li id="menu2"> 로그인</li>
+            </ul>
+        </div>
     </div>
-    
+
     <div class="Container">
         <div class="Login-form">
-            <section class="form">
-                <div class="h1">
-                    <h1>로그인</h1>
+            <form class="form">
+
+                    <h1 class="h1">로그인</h1>
+
+                <div id="input">
+                    <div class="id">
+                        <div class="id-left">
+                            I
+                        </div>
+                        <p>
+                            <input type="text" id="id"/>
+                        </p>
+                    </div>
+                    <div class="password">
+                        <div class="password-left">
+                            P
+                        </div>
+                        <p>
+                            <input type="password" id="password"/>
+                        </p>
+                    </div>
+                    
+            
+                    <div>
+                        <input type="button" id="Login" onclick="check(this.form)" value="로그인"/>
+                    </div>
                 </div>
-                <div class="id">
-                    <label>User Name</label>
-                    <input type="text" id="id">
-                </div>
-                <div class="password">
-                    <label>Password</label>
-                    <input type="password" id="password">
-                </div>
-                <button type="submit" id="Login">로그인</button>
-            </section>
+            </form>
         </div>
-        
     </div>
 
     <div class="Footer">
         <a class="admin">만든이 : 이석주</a>
     </div>
+
+<script src="index.js">
+</script>
+
 
 </body>
 </html>

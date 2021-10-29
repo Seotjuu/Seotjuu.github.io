@@ -1,62 +1,113 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
-body{
-    height: 60vh;
-}
-
-.Header .Container .Footer{
-    display: inline;
-    width: 100%;
-    
-}
 
 .Header{
-    height: 20%;
+    height: 25%;
 }
 
 .Container{
-    height: 100%;
-    border: solid balck 1px;
+    height: 600px;
     display: flex;    
-    border-bottom: solid gray 1px;
-    border-top: solid gray 1px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
 }
 
 .Footer{
-height: 100%;
+    margin-top: 40px;
 }
 
 .Login-form{
-    margin: auto;
+    margin:50px 0px 50px 40%;
     border:solid black 1px;
     padding: 5%;
-    padding-bottom: 20%;
-}
-
-#password{
-    margin-left: 14px;
-}
-
-.Login{
-    margin-left: 1;
-}
-
-
-
-.h1{
-    text-align: center;
-    margin-bottom: 50px;
-    border-bottom: solid gray 1px;
+    width: 25%;
+    height: 80%;
+    padding-top: 50px;
 }
 
 #Login{
-    background-color: ;
+    margin-top: 10px;
+    margin-left: 240px;
+    background-color: rgb(88, 90, 189);
     color: white;
+    padding: 8px 10px 8px 10px;
     border: none;
-    padding: 3%;
 }
 
+.id, .password{
+    border: solid black 1px;
+}
+
+.id-left, .password-left{
+    border-right: solid black 1px;
+    width: 30px;
+    text-align: center;
+    height: 29px;
+}
+
+#id, #password{
+    border: none;
+    padding: 6px 93px 6px 6px;
+}
+
+.id-left,#id{
+    float: left;
+}
+
+.password-left,#password{
+    float: left;
+}
+
+.id{
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.password{
+    height: 30px;
+}
+
+.h1{
+    text-align: center;
+}
+
+.form{
+    height: 20px;
+}
+
+#input{
+    margin-top: 20px;
+    border-top: solid gray 1px;
+    border-bottom: solid gray 1px;
+    padding: 40px 0px 40px 0px;
+    width: 300px;
+}
 
 .admin{
     margin-left: 100px;
 }
+
+.Header-left{
+    padding: 25px;
+    width: 20%;
+}
+
+.Header-right{
+    width: 20%;       
+    margin-left: 50%;               
+}
+
+.Header-left, .Header-right{
+    display: inline-block;
+}
+
+#menu1, #menu2{
+    display: inline-block;
+}
+
+#menu1{
+    border-right: solid black 1px;
+    padding-right: 5px;
+    height: 20px;
+}
+

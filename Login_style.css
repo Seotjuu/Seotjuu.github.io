@@ -1,19 +1,52 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
-
+/*/ Header /-------------------------------------------------------------*/
 .Header{
     height: 25%;
 }
 
+.Header-left{
+    padding: 25px;
+    width: 20%;
+}
+
+.Header-right{
+    width: 20%;       
+    margin-left: 50%;               
+}
+
+.Header-left, .Header-right{
+    display: inline-block;
+}
+
+#menu1, #menu2{
+    display: inline-block;
+}
+
+#menu1{
+    border-right: solid black 1px;
+    padding-right: 5px;
+    height: 20px;
+}
+
+#menu_Login, #menu_Logout{
+    text-decoration: none;
+}
+
+#Logo{
+    text-decoration: none;
+}
+
+#menu_Login:hover, #menu_Logout:hover{
+    text-decoration: underline;
+}
+
+/*/ Container /---------------------------------------------------------*/
 .Container{
     height: 600px;
     display: flex;    
     border-top: solid black 1px;
     border-bottom: solid black 1px;
-}
-
-.Footer{
-    margin-top: 40px;
 }
 
 .Login-form{
@@ -83,31 +116,12 @@
     width: 300px;
 }
 
+/*/ Footer /------------------------------------------------------------*/
+.Footer{
+    margin-top: 40px;
+}
+
 .admin{
     margin-left: 100px;
-}
-
-.Header-left{
-    padding: 25px;
-    width: 20%;
-}
-
-.Header-right{
-    width: 20%;       
-    margin-left: 50%;               
-}
-
-.Header-left, .Header-right{
-    display: inline-block;
-}
-
-#menu1, #menu2{
-    display: inline-block;
-}
-
-#menu1{
-    border-right: solid black 1px;
-    padding-right: 5px;
-    height: 20px;
 }
 

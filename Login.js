@@ -2,7 +2,7 @@
 sessionStorage.setItem("seotju123", "1234");
 console.log(sessionStorage);
 
-var a = sessionStorage.key(0);
+var a = "seotju123";
 var b = sessionStorage.seotju123;
 
 

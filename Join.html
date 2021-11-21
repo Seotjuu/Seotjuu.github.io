@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="Join.css">
     <title>이석주 홈페이지</title>
     <style type="text/css"> 
         a { color:black;
@@ -40,7 +40,7 @@
 
     <div class="Tab">
         <div class="Tab-box">
-            <a id="Tab_Text">로그인</a>
+            <a id="Tab_Text">회원가입</a>
         </div>
         
     </div>
@@ -50,28 +50,43 @@
             <div class="Login-form">
                 <form class="form">
     
-                        <h1 class="h1">로그인</h1>
+                        <h1 class="h1">회원가입</h1>
     
                     <div id="input">
+                        <a>아이디</a>
                         <div class="id">
-                            <div class="id-left">
-                                I
-                            </div>
                             <p>
                                 <input type="text" id="id"/>
                             </p>
                         </div>
+
+                        <a>닉네임</a>
+                        <div class="Nickname">
+                            <p>
+                                <input type="text" id="Nickname"/>
+                            </p>
+                        </div>
+
+                        <div>
+                            <button type="button" onclick="id_OverLap()" id="name_over">중복 확인</button>
+                        </div>
+
+                        <a>비밀번호</a>
                         <div class="pw">
-                            <div class="pw-left">
-                                P
-                            </div>
                             <p>
                                 <input type="password" id="pw"/>
                             </p>
                         </div>
+
+                        <a>비밀번호 (확인)</a>
+                        <div class="pw_plus">
+                            <p>
+                                <input type="password" id="pw_plus"/>
+                            </p>
+                        </div>
         
                         <div>
-                            <button type="button" onclick="check()" id="Login">로그인</button>
+                            <button type="button" id="Join">회원가입</button>
                         </div>
                     </div>
                 </form>

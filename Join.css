@@ -60,11 +60,11 @@
     padding: 0px 20px 4px 10px;
 }
 
-#menu_Login, #menu_Logout{
+#menu_Login, #menu_Logout, #menu_Join{
     text-decoration: none;
 }
 
-#menu_Login:hover, #menu_Logout:hover{
+#menu_Login:hover, #menu_Logout:hover, #menu_Join:hover{
     text-decoration: underline;
 }
 
@@ -85,7 +85,7 @@
 
 /*/ Container /---------------------------------------------------------*/
 .Container{
-    height: 600px;
+    height: 800px;
     display: flex;    
 }
 
@@ -98,37 +98,41 @@
     padding-top: 50px;
 }
 
-#Login{
+#Join{
     margin-top: 10px;
-    margin-left: 240px;
+    margin-left: 226px;
     background-color: rgb(88, 90, 189);
     color: white;
     padding: 8px 10px 8px 10px;
     border: none;
 }
 
-.id, .password{
+#Join:hover{
+    background-color: rgb(116, 117, 180);
+    cursor: pointer;
+}
+
+#name_over{
+    margin-top: 10px;
+    margin-left: 222px;
+    background-color: rgb(88, 90, 189);
+    color: white;
+    padding: 8px 10px 8px 10px;
+    border: none;
+}
+
+#name_over:hover{
+    background-color: rgb(116, 117, 180);
+    cursor: pointer;
+}
+
+.id, .Nickname, .pw, .pw_plus {
     border: solid black 1px;
 }
 
-.id-left, .password-left{
-    border-right: solid black 1px;
-    width: 30px;
-    text-align: center;
-    height: 29px;
-}
-
-#id, #password{
+#id, #Nickname, #pw, #pw_plus {
     border: none;
-    padding: 6px 93px 6px 6px;
-}
-
-.id-left,#id{
-    float: left;
-}
-
-.password-left,#password{
-    float: left;
+    padding: 6px 123px 6px 6px;
 }
 
 .id{
@@ -136,7 +140,16 @@
     height: 30px;
 }
 
-.password{
+.pw{
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.Nickname{
+    height: 30px;
+}
+
+.pw_plus{
     height: 30px;
 }
 

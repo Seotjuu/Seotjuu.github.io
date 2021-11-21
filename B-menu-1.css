@@ -60,11 +60,11 @@
     padding: 0px 20px 4px 10px;
 }
 
-#menu_Login, #menu_Logout{
+#menu_Login, #menu_Logout, #menu_Join{
     text-decoration: none;
 }
 
-#menu_Login:hover, #menu_Logout:hover{
+#menu_Login:hover, #menu_Logout:hover, #menu_Join:hover{
     text-decoration: underline;
 }
 

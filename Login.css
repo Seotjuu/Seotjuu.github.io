@@ -35,6 +35,7 @@
 
 #Logo{
     text-decoration: none;
+    font-size: 15px;
 }
 
 .Header-A{ 
@@ -166,6 +167,7 @@
 
 .admin{
     color: white;
+    font-size: 15px;
 }
 
 .Footer-box{

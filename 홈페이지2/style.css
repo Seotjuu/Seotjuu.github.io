@@ -1,4 +1,4 @@
-@import url(/홈페이지2/media.css);
+@import url(./media.css);
 
 
 *{
@@ -37,7 +37,7 @@
 
 .Header-Login{
     float: right;
-    margin-right: 200px;
+    margin-right: 10%;
 }
 
 #li-Login{
@@ -51,10 +51,13 @@
 
 #li-Menu{
     font-weight: 1000;
-    font-size: 1.2em;
     margin-left: 50px;
     text-decoration: none;
     color: black;
+}
+
+li{
+    display: inline-block;
 }
 
 #li-Menu:hover, #li-Login:hover {

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Join.css">
+    <title>이석주 홈페이지</title>
+    <script src="https://kit.fontawesome.com/4e357cbf2b.js" crossorigin="anonymous"></script>
+    <style type="text/css"> 
+        a { color:black;
+            text-decoration: none;
+        }
+        </style>
+</head>
+<body>
+    <div class="Header">
+        <div class="Header-box">
+            <div class="Header-Left">
+                <a href="index.html" id="Logo"><h1>Seotju's HomePage</h1></a>
+            </div>
+            <div class="Header-Right">
+                <div class="Header-A">
+                    <ul>
+                        <li id="A-menu1"><a href="Join.html" id="menu_Join">회원가입</a></li>
+                        <li id="A-menu2">|</li>
+                        <li id="A-menu3"><a href="Login.html" id="menu_Login">로그인</a></li>
+                    </ul>
+                </div>
+
+                <div class="Header-B">
+                    <ul>
+                        <li id="B-menu"><a href="B-menu-1.html" id="B-menu-1">이력서</a></li>
+                        <li id="B-menu"><a href="B-menu-2.html" id="B-menu-2">게시판</a></li>
+                        <li id="B-menu"><a href="B-menu-3.html" id="B-menu-3">블로그</a></li>
+                </div>
+            </div>
+            </div>
+        
+    </div>
+
+    <div class="Tab">
+        <div class="Tab-box">
+            <a id="Tab_Text">회원가입</a>
+        </div>
+        
+    </div>
+
+    <div class="Container">
+        <div class="Container-box">
+            <div class="Login-form">
+                <form class="form">
+    
+                        <h1 class="h1">회원가입</h1>
+    
+                    <div id="input">
+                        <a>아이디</a>
+                        <div class="id">
+                            <p>
+                                <input type="text" id="id"/>
+                            </p>
+                        </div>
+
+                        <a>닉네임</a>
+                        <div class="Nickname">
+                            <p>
+                                <input type="text" id="Nickname"/>
+                            </p>
+                        </div>
+
+                        <div>
+                            <button type="button" onclick="id_OverLap()" id="name_over">중복 확인</button>
+                        </div>
+
+                        <a>비밀번호</a>
+                        <div class="pw">
+                            <p>
+                                <input type="password" id="pw"/>
+                            </p>
+                        </div>
+
+                        <a>비밀번호 (확인)</a>
+                        <div class="pw_plus">
+                            <p>
+                                <input type="password" id="pw_plus"/>
+                            </p>
+                        </div>
+        
+                        <div>
+                            <button type="button" id="Join">회원가입</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>        
+    </div>
+
+    <div class="Footer">
+        <div class="Footer-box">
+            <a class="admin">만든이 : 이석주</a>
+        </div>        
+    </div>
+
+<script src="Login.js">
+</script>
+
+
+</body>
+</html>

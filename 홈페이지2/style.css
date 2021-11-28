@@ -9,7 +9,6 @@
 .Container,
 .Footer{
     height: 200px;
-    border: solid 2px black;
     margin: 0px, 100px, 0px, 100px;
 }
 
@@ -18,7 +17,6 @@
 .Header-Logo,
 .Header-Menu,
 .Header-Login{
-    border: solid 1px red;
 }
 
 .Header-Logo, .Header-Login{
@@ -52,7 +50,6 @@
 }
 
 #li-Menu:hover{
-    color: red;
     text-decoration: underline;
 }
 

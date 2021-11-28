@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+        .Header, .Container, .Footer, .Header-box, .Container-box, .Footer-box, #main_photo{
+            width: 768px;
+            margin: 0px;
+        }
+
+        .Header{
+            height: 200px;
+        }
+
+        .Header-A{
+            margin: 0px;
+        }
+        
+        .menubar i{
+            display: block;
+        }
+
+}
+
+.menubar i{
+    display: none;
+}

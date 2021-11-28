@@ -3,13 +3,13 @@
 
 *{
     margin: 0px;
+    padding: 0px;
 }
 
-.Header,
 .Container,
 .Footer{
-    height: 200px;
-    margin: 0px, 100px, 0px, 100px;
+    height: 200px;  
+    border: solid 1px black ;
 }
 
 /* Header */
@@ -17,6 +17,7 @@
 .Header-Logo,
 .Header-Menu,
 .Header-Login{
+    border: solid 1px red;
 }
 
 .Header-Logo, .Header-Login{
@@ -30,16 +31,21 @@
 }
 
 .Header-Logo{
-    height: 100px;
-    width: 150px;
+    margin-left: 49%;
+    text-align: center;
 }
 
 .Header-Login{
     float: right;
+    margin-right: 200px;
+}
+
+#li-Login{
+    text-decoration: none;
+    color: black;
 }
 
 #li-Login, #li-Menu{
-    text-decoration: none;
     display: inline-block;
 }
 
@@ -47,9 +53,11 @@
     font-weight: 1000;
     font-size: 1.2em;
     margin-left: 50px;
+    text-decoration: none;
+    color: black;
 }
 
-#li-Menu:hover{
+#li-Menu:hover, #li-Login:hover {
     text-decoration: underline;
 }
 

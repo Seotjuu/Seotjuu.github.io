@@ -1,15 +1,16 @@
-
 @media screen and (max-width: 768px){
     .Header-Menu{
         
     }
 
     .Header-Login{
-        
+        margin-right: 1 px;
+        float: none;
     }    
 
     .Header-Logo{
-        
+        float: left;
+        margin: 0px!important;
     }
 
 }

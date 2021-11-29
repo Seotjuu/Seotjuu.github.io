@@ -5,7 +5,7 @@
     }
 
     .Header-Menu{
-        position: fixed;
+        position: absolute;
         left: 20%;
         top: 8%;
         border: none!important;

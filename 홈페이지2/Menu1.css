@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Container */
+.Container-Title{
+    margin: 40px 25% 0px 26%;
+}
+
+.Container-M1{
+    margin: 10px 27% 0px 25%;
+    border: solid 1px rgb(161, 161, 161);
+    border-radius: 10px;
+    height: 500px;
+}
+
+#M1-C-ul{
+    margin: 20px;
+}
+
+#M1-C-li1, #M1-C-li2, #M1-C-li3{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#M1-C-li1-div{
+    border-left: solid 4px rgb(179, 179, 179);
+    padding-left: 10px;
+}
+
+#M1-C-li2-div{
+    border-left: solid 4px rgb(179, 179, 179);
+    padding-left: 10px;
+}
+
+#M1-C-li3-a{
+    text-decoration: none;
+    color: rgb(140, 140, 230);
+}
+
+#M1-C-li3-a:hover{
+    text-decoration: underline;
+}

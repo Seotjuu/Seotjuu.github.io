@@ -1,15 +1,98 @@
+/* 테블릿 */
 @media screen and (max-width: 768px){
-    .Header-Menu{
-        position: fixed;
-        top: 0;
+    .Header{
+        padding: 0px!important;
     }
 
-    .Header-Login{
+    .Header-Menu{
+        position: fixed;
+        left: 20%;
+        top: 8%;
+        border: none!important;
+    }   
 
+    .Header-Login{
+        margin-right: 10px!important;
+        margin-top: 10px;
+        font-size: 10px;
     }    
 
     .Header-Logo{
         margin: 0px!important;
+    }
+
+    #li-Login{
+        margin-left: 5px;
+    }
+
+    #li-Menu{
+        border: solid 1px black!important;
+        border-radius: 100px;
+        height: 30px!important;
+        line-height: 30px;
+        width: 100px;
+        text-decoration: none!important;
+        margin-left: 60%!important;
+    }
+
+    li:hover{
+        text-decoration: none!important;
+    }
+
+    #li-Menu:hover{
+        background-color: rgb(201, 201, 201);
+    }
+
+    .Logo-h1{
+        display: none!important;
+    }
+
+    .Header{
+        border-bottom: solid 2px rgb(109, 109, 109);
+    }
+
+    /* Container */
+    .Container-M1{
+        margin: 10px 13% 0px 13%!important;
+    }
+
+    .Container-Title{
+        margin-left: 16%!important;
+    }
+
+
+    
+
+}
+/* 아이폰 (5,SE 제외) */
+@media screen and (max-width: 425px){
+    .Header-Menu{
+        margin-top: 0px!important;
+        margin-left: 10%;
+    }   
+
+    .Header-Login{
+        margin-right: 10px!important;
+        font-size: 10px;
+    }    
+
+    .Header-Logo{
+        margin: 0px!important;
+    }
+
+    #li-Menu{
+        width: 70px;
+        font-size: 15px!important;
+        margin-left: 10px!important;
+    }
+
+    /* Container */
+    .Container-M1{
+        margin: 10px 5% 0px 5%!important;
+    }
+
+    .Container-Title{
+        margin-left: 10%!important;
     }
 
 }
